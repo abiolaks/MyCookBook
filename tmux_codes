@@ -36,6 +36,18 @@ What is tmux:
         Launch tmux : enter a text using any terminal editor and wihout saving the file close the terminal.
         Reopen the  terminal 
         Launch the command : tmux attach
-        This will bring back the last session you were in and what you were doing.
+        This will bring back the last session you were in and what you 
+        were doing.
         
+    What is the Big deal about Tmux:
+        Tmux is portable it doesn't care what your terminal emulator is. and it does not even require any GUI. Moreso, you can pair tmux
+        with any terminal emulator of your choice.
+
+    What Tmux offer More:
+        Multiple panes and windows
+        Each window is completely independent of the other.
+        You can also customize tmux to use mouse to resize the pane.
+
+    Tmux configuration is very extensive, you can configure it the way you want and make tmux personal to enhance your workflow.
+
 
