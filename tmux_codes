@@ -49,5 +49,21 @@ What is tmux:
         You can also customize tmux to use mouse to resize the pane.
 
     Tmux configuration is very extensive, you can configure it the way you want and make tmux personal to enhance your workflow.
+    
+    Working with Panes:
+    
+        Learning tmux Prefix: ctrl b 
 
+        tmux_prefix is like a signal you send to tmux that you want do something and tmux respond.
+        you use the ctrl b the you issue the actually command to do something
+        ctrl b " :create an horizontal split
+        ctrl b % : create vertical split.
+        to exit type exit or ctrl d. ctrl b x
 
+        Navigating between Panes:
+            ctrl b arrow key        
+
+    Usefulness of Panes
+        it allows us to run something in one pane while doing something else in another pane.
+
+    To Zoom in : ctrl b z again to zoom in.
