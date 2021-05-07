@@ -1,0 +1,41 @@
+Working With Tmux
+
+What is tmux:
+    tmux session, with two horizontal and one vertical pane. tmux is an open-source terminal multiplexer for Unix-like operating systems. 
+    It allows multiple terminal sessions to be accessed simultaneously in a single window. It is useful for running more than one command
+    -line program at the same time.
+
+
+    Using Tmux:
+        To use tmux, it has to be install on- for those using ubuntu, go to the terminal and enter - sudo apt get install tmux
+        check to see it has been install by entering : which tmux. 
+        This should display the directory where tmux is located.
+
+    Lauch Tmux:
+        enter the keyword : tmux
+        on the command line to get tmux fired up
+
+
+    Advantage of using Tmux:
+        it is important to know that linux is very stable but hardware are not. There could crashes or even network connection issues 
+        when connected to a network server, you get drop.  and as a result could lead to loosing work done on the terminal or in a session. 
+
+        However with tmux, is challenge is overcome. your load up your terminal again and still continue exist work. The last session you
+        are working on is preserve or better put - it helps keep things persistent in the background. 
+        
+
+    A secenerio :
+
+    open up the terminal : enter a text using any terminal editor (nano, vim, emac) without saving the file.
+    close the terminal without saving the file.
+    Restart the terminal - you will notice that the last session you were and what you were doing is gone and even the content of the file
+    is gone.
+
+    Tmux Comes to the Rescue:
+        open up  the terminal
+        Launch tmux : enter a text using any terminal editor and wihout saving the file close the terminal.
+        Reopen the  terminal 
+        Launch the command : tmux attach
+        This will bring back the last session you were in and what you were doing.
+        
+
